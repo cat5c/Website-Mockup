@@ -1,0 +1,97 @@
+header {
+  margin: auto;
+  padding: 2em;
+  display: inline-block;
+}
+
+.search-email{
+  display: inline-block;
+  text-align: right;
+
+}
+
+.email {
+  display: inline-block;
+  text-align: center;
+}
+
+#gapps {
+  text-align: right;
+  display: inline-block;
+}
+ #g {
+   text-align: right;
+   display: inline-block;
+ }
+
+#logo{
+  text-align: right;
+  display: inline-block;
+  width: 5em;
+}
+
+#number{
+  width: 1em;
+}
+
+body{
+  align-items: stretch;
+  margin: 0 auto;
+  font-family: "Georgia";
+}
+h2{
+  border-bottom-style: solid;
+  border-color: rgb(235, 239, 245);
+
+}
+.column-layout{
+  max-width: 1800px;
+  background-color: white;
+  margin: 0 auto;
+  line-height: 1.55;
+  padding: 40px 60px;
+
+  justify-content: space-between;
+}
+
+.main-column{
+  flex: 4;
+  order: 2;
+  padding: 5em;
+
+}
+
+.sidebar-one{
+  flex: 1;
+  order: 1;
+  padding: 40px;
+  background-color: black;
+  color: #FFF;
+  flex-direction: column;
+  display: flex;
+  padding-top: 20px;
+
+}
+
+ul{
+  list-style-type: none;
+  left: 70px;
+}
+
+.sidebar-two{
+  flex: 2;
+  order: 3;
+  padding: 80px;
+}
+
+@media(min-width: 800px){
+  .column-layout{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#map{
+  width: 45em;
+
+}
